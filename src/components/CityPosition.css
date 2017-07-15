@@ -1,0 +1,64 @@
+.fdialog-container .fdialog-content {
+    height: 100%;
+    background-color: #fff;
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+    -moz-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+}
+.fdialog-container .fdialog-rcon {
+    margin-bottom: 45px;
+    padding-bottom: 45px;
+}
+.cities-header {
+    border-bottom: 1px solid #e8e8e8;
+    height: 25px;
+    line-height: 25px;
+    padding: 0 15px;
+    font-size: 1.2rem;
+    color: #888;
+}
+.cities-list {
+    width: 100%;
+    border-bottom: 1px solid #e8e8e8;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tr {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+td, th {
+    padding: 0;
+}
+user agent stylesheet
+th {
+    font-weight: bold;
+    text-align: -internal-center;
+}
+user agent stylesheet
+td, th {
+    display: table-cell;
+    vertical-align: inherit;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.cities-item {
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #333;
+    min-width: 100px;
+}

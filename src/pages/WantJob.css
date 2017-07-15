@@ -1,0 +1,95 @@
+#contents .infos {
+    background: url(//www.lgstatic.com/images/mobile/asset/common/img/back-info.jpg) repeat;
+    background-size: 320px 125px;
+    height: 125px;
+    color: #00b38a;
+    font-size: 1.9rem;
+    text-align: center;
+    border-bottom: 1px solid #e8e8e8;
+}
+#contents .infos .text {
+    display: inline-block;
+    position: relative;
+    height: 25px;
+    top: 50px;
+}
+#contents .infos .left, #contents .infos .right {
+    display: inline-block;
+    width: 13px;
+    height: 10.5px;
+    position: absolute;
+}
+#contents .infos .left {
+    left: -20px;
+    top: -2px;
+    background: url(//www.lgstatic.com/images/mobile/asset/common/img/icon.png) no-repeat -102.5px -4px;
+    background-size: 250px 250px;
+}
+#contents .infos .right {
+    right: -14px;
+    top: 15px;
+    background: url(//www.lgstatic.com/images/mobile/asset/common/img/icon.png) no-repeat -119.5px -4px;
+    background-size: 250px 250px;
+}
+#contents .rinputer {
+    border-top: none;
+}
+#contents .rinputer {
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #e8e8e8;
+    position: relative;
+    margin-right: 60px;
+    padding-right: 45px;
+}
+#contents .rinputer:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#contents .inputer {
+    display: block;
+    margin-left: 23px;
+    font-size: 1.5rem;
+    width: 100%;
+}
+#contents .inputer, #contents .button {
+    display: block;
+    height: 100%;
+}
+img, input {
+    border: none;
+    outline: none;
+    padding: 0;
+}
+#contents .button {
+    position: absolute;
+    top: 0;
+    right: -61px;
+    width: 60px;
+    border-left: 1px solid #e8e8e8;
+    text-align: center;
+    font-size: 1.5rem;
+    color: #c2cfcc;
+    border-bottom: 1px solid #e8e8e8;
+}
+#contents .predata {
+    margin-left: 15px;
+}
+#contents .predata .item {
+    height: 44px;
+    line-height: 44px;
+    color: #666;
+    font-size: 1.4rem;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 0 15px 0 10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#contents .suggester {
+    margin-left: 15px;
+    display: none;
+}

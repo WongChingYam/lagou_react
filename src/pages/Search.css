@@ -1,0 +1,107 @@
+#root #content {
+    padding-bottom: 0;
+    padding: 0;
+}
+#content .linputer {
+    position: relative;
+    border-bottom: 1px solid #e8e8e8;
+    height: 45px;
+}
+#content .lbutton {
+    float: left;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    text-align: center;
+    width: 88px;
+    border-right: 1px solid #e8e8e8;
+}
+#content .lbutton span {
+    display: inline-block;
+}
+#content .lbutton .cityicon {
+    width: 8.5px;
+    height: 7px;
+    background: url(//www.lgstatic.com/images/mobile/asset/common/img/icon.png) no-repeat -1px -2.5px;
+    background-size: 250px 250px;
+    margin-left: 5px;
+}
+#content .rinput {
+    height: 45px;
+    margin-left: 89px;
+    position: relative;
+}
+#content .rinput:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#content .rinput .inputer {
+    display: block;
+    border: none;
+    padding: 10px 0;
+    height: 44px;
+    line-height: 25px;
+    color: #333;
+    width: 75%;
+    margin: 0 0 0 5%;
+    font-size: 16px;
+    float: left;
+}
+#content .rinput .search {
+    display: inline-block;
+    width: 20%;
+    height: 45px;
+    line-height: 45px;
+    float: right;
+    position: relative;
+}
+#content .rinput .search .searchicon {
+    display: block;
+    margin: 14px auto 0 auto;
+    width: 17px;
+    height: 17px;
+    background: url(//www.lgstatic.com/images/mobile/asset/common/img/icon.png) no-repeat -14px -2.5px;
+    background-size: 250px 250px;
+}
+
+#content .history {
+    background-color: #fafafa;
+    color: #666;
+}
+
+#content .custominfo {
+    height: 35px;
+    line-height: 35px;
+    font-size: 1.4rem;
+    color: #5d897e;
+    background-color: #e7f7f3;
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 14px;
+}
+.list .list-empty {
+    text-align: center;
+    font-size: 14px;
+    margin-top: 30px;
+    color: #c2cfcc;
+}
+.list .list-empty .icon {
+    width: 20px;
+    height: 20px;
+    background: url(//www.lgstatic.com/images/mobile/asset/common/img/icon.png) no-repeat -70px -18.5px;
+    background-size: 250px 250px;
+}
+.list .list-empty .icon, .list .list-empty .text {
+    display: inline-block;
+    vertical-align: middle;
+}
+.list .list-more {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 1.5rem;
+    background-color: #fafafa;
+}
